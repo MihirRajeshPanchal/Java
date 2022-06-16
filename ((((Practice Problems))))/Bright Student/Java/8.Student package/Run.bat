@@ -1,0 +1,1 @@
+java MyPack.StudentMain

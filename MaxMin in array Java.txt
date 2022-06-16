@@ -1,0 +1,34 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+       	int i,size;
+       	int max,min;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter The size of array : ");
+		size=sc.nextInt();
+		int a[]=new int[size];
+		max=a[0];
+		min=a[0];
+		for(i=0;i<a.length;i++)
+		{
+			System.out.print("Enter Elememts : ");
+			a[i]=sc.nextInt();
+			if(max<a[i])
+			{
+			    max=a[i];
+			}
+			if(min>a[i])
+			{
+			    min=a[i];
+			}
+		}
+		for(i=0;i<a.length;i++)
+		{
+			System.out.println("Elememts are : "+a[i]);
+		}
+		System.out.println("Maximum Value is : "+max);
+		System.out.println("Minimum Value is : "+min);
+    }
+}

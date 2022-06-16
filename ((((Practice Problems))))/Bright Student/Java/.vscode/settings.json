@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        ".vscode",
+        "1.Employee",
+        "2.Taxi",
+        "3.PersonMain",
+        "4.Account",
+        "5.Factorial",
+        "6.CountWords",
+        "7.SearchWord",
+        "8.Student package",
+        "9.PrimeNumber",
+        "10.CountWords(Mutithreading)",
+        "11.BMI",
+        "12.LoginForm"
+    ]
+}
